@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>FindPellicoleByUtente</display-name>
+    <servlet-name>FindPellicoleByUtente</servlet-name>
+    <servlet-class>it.generationitaly.cinestars.controller.FindPellicoleByUtente</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindPellicoleByUtente</servlet-name>
+    <url-pattern>/FindPellicoleByUtente</url-pattern>
+  </servlet-mapping>
+  <display-name>CineStars0923</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AggiungiWatchListServlet</display-name>
+    <servlet-name>AggiungiWatchListServlet</servlet-name>
+    <servlet-class>it.generationitaly.cinestars.controller.AggiungiWatchListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AggiungiWatchListServlet</servlet-name>
+    <url-pattern>/AggiungiWatchListServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
